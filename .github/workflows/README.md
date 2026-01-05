@@ -13,13 +13,7 @@ We also host a test GKE cluster, which is where the deploy tests run. Every PR h
 **Note**: In order for the current CI/CD setup to work on your pull request, you must branch directly off the repo (no forks). This is because the Github secrets necessary for these tests aren't copied over when you fork.
 
 ### Code Tests - [ci-pr.yaml](ci-pr.yaml)
-
-### Readme.md file updated
-
-
 These tests run on every commit for every open PR, as well as any commit to main / any release branch. Currently, this workflow runs only Go unit tests.
-
-
 ### Deploy Tests- [ci-pr.yaml](ci-pr.yaml)
 
 These tests run on every commit for every open PR, as well as any commit to main / any release branch. This workflow:
@@ -66,3 +60,6 @@ The instance will restart when the script completes in order to finish the Docke
 ```
 sudo ~/actions-runner/svc.sh install ; sudo ~/actions-runner/svc.sh start
 ```
+### Readme.md file updated
+
+Hello World
