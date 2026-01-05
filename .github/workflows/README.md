@@ -14,6 +14,9 @@ We also host a test GKE cluster, which is where the deploy tests run. Every PR h
 
 ### Code Tests - [ci-pr.yaml](ci-pr.yaml)
 
+### Readme.md file updated
+
+
 These tests run on every commit for every open PR, as well as any commit to main / any release branch. Currently, this workflow runs only Go unit tests.
 
 
